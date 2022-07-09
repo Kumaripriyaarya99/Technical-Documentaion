@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+    font-family: Roboto,sans-serif;
+  }
+
+  .title {
+    margin: 0;
+    padding: 20px;
+    background-color: #555;
+    color: white;
+  }
+  #navbar {
+position: fixed;
+top: 0px;
+left: 0px;
+width: 323px;
+height: 100%;
+border: 1px solid black;
+overflow-y: scroll;
+border-color:rgba(0,22,22,0.4)
+}
+
+.nav-link {
+padding: 3px;
+text-decoration: none;
+cursor: pointer;
+color: #000;
+
+}
+  @media only screen and (max-width: 600px) {
+    body {
+        background-color: black;
+    }
+  }
+  section {
+max-width: 900px;
+margin-bottom: 50px;
+}
+#main-doc {
+margin: 40px 30px;
+}
+header{
+color: blue;
+
+}
+h2{
+color: black;
+}
+.nav-link:hover {
+text-decoration: underline;
+}
